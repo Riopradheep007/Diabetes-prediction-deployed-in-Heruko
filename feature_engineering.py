@@ -1,15 +1,8 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu May 21 09:34:11 2020
-
-@author: kpr
-"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-'''
+
 df=pd.read_csv("dataset.csv")
 print(df.head())
 print(df.isnull().sum())
@@ -34,7 +27,7 @@ cs.to_csv('../balanced_dataset.csv', index=False)
 print('modified train CSV is ready!')
 
 sns.countplot(x='Outcome',data=m)
-##############################################################'''
+##############################################################
 #Outliers handling
 
 df=pd.read_csv('balanced_dataset.csv')
@@ -100,7 +93,8 @@ print(removed_outliers[(removed_outliers.Age>upper_limit) | (removed_outliers.Ag
 
 removed_outliers=removed_outliers[(removed_outliers.Age<upper_limit) & (removed_outliers.Age>lower_limit)]
 print(removed_outliers.shape)
-'''
+
+
 cs=removed_outliers
 cs.to_csv('../formulated_dataset1.csv', index=False)
-print('modified train CSV is ready!')'''
+print('modified train CSV is ready!')
