@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun 17 14:06:16 2020
 
-@author: kpr
-"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -47,19 +41,3 @@ import pickle
 # Creating a pickle file for the classifier
 filename = 'diabetes_prediction.pkl'
 pickle.dump(model, open(filename, 'wb'))
-'''
-#from sklearn.metrics import roc_auc_score
-from sklearn.metrics import roc_curve,auc
-
-fpr,tpr,threshold=roc_curve(y_test,prediction)
-auc_curve=auc(fpr,tpr)
-
-plt.figure(figsize=(5,5),dpi=100)
-plt.plot(fpr,tpr,linestyle='-',label='Logistic(auc=%0.3f)'%auc_curve)
-
-plt.xlabel('False Positive Rate -->')
-plt.ylabel('True Positive Rate -->')
-
-plt.legend()
-plt.show()
-'''
