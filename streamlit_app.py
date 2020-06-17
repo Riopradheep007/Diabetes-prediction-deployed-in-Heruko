@@ -8,7 +8,7 @@ import streamlit as st
 
 
 
-pickle_in = open("diabetes_prediction.pkl","rb")
+pickle_in = open("diabetes_prediction1.pkl","rb")
 classifier=pickle5.load(pickle_in)
 
 
