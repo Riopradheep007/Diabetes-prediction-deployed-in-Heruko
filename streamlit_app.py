@@ -1,14 +1,7 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 14 10:07:33 2020
-
-@author: kpr
-"""
 
 
 import numpy as np
-import pickle
+import pickle5
 import pandas as pd
 #from flasgger import Swagger
 import streamlit as st 
@@ -16,7 +9,7 @@ import streamlit as st
 
 
 pickle_in = open("diabetes_prediction.pkl","rb")
-classifier=pickle.load(pickle_in)
+classifier=pickle5.load(pickle_in)
 
 
 
