@@ -9,3 +9,10 @@
    
    
 2.To Run the web api:In your Terminal streamlit run streamlit_app.py
+
+
+
+ 
+Click the link and run my model
+ 
+My Model:https://diabetespredict-api.herokuapp.com/
