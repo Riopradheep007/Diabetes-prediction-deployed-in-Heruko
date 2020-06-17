@@ -36,8 +36,8 @@ print("accuracy_score:",accuracy)
 from sklearn.metrics import classification_report
 print(classification_report(y_test,prediction))
 
-import pickle
+import pickle5
 
 # Creating a pickle file for the classifier
 filename = 'diabetes_prediction.pkl'
-pickle.dump(model, open(filename, 'wb'))
+pickle5.dump(model, open(filename, 'wb'))
