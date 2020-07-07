@@ -1,18 +1,16 @@
 # Diabetes-prediction-deployed-in-Heruko
 
 
-1.First run the feature_engineering.py 
-
-   *The dataset was imblanced we have to balance the dataset
-   
-   *Then we have to handle the outliers.
-   
-   
-2.To Run the web api:In your Terminal streamlit run streamlit_app.py
-
-
-
+## Table of content
+   - Demo
+   - Overview
+   - Motivation
+   - Technical Aspect
+   - Installation
+   - Run
+  
  
-Click the link and run my model
+## Demo
  
-My Model:https://diabetespredict-api.herokuapp.com/
+#### Link :https://diabetespredict-api.herokuapp.com/
+![Screenshot from 2020-07-07 11-22-59](https://user-images.githubusercontent.com/46066018/86722271-5daab880-c044-11ea-9fbe-ae937f852d4e.png)
